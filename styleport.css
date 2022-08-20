@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background: black;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    padding: 5px 0px 9px 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+li a button {
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-radius:25px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight:bold;
+}
+
+li a :hover{
+    background-color: #ea1538;
+    cursor: pointer;
+    transition: .3s;
+    color: #000;
+  }
+
+.detel{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.hii{
+    font-size: 80px;
+    font-family: 'Great Vibes', cursive;
+    color: #000;
+}
+.hi{
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+    color: #000;
+}
+.h1{
+    
+    font-size: 80px;
+    color:black;
+}
+
+.detel h1{
+    margin-top: -22px;
+    font-size: 50px;
+    color:#000;
+    margin-bottom: 4px;
+    font-family: 'Kaushan Script', cursive;
+}
+.firstword{
+    font-size: 90px;
+    color: red;
+}
+.surname{
+    font-size: 75px;
+    color: red;
+}
+span{
+    color: red;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.detel p{
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: #000;
+    line-height: 22px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+}
+
+
+.btn button {
+    margin-top: 25px;
+  }
+  .btn button {
+    
+    border-radius: 25px;
+    padding: 10px 18px;
+    font-size: 20px;
+    background-color: red;
+  }
+  .btn :hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: red;
+    transition: .5s;
+  }
+   a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .kvv{
+    left: 45%;
+}
+  
+
+/*skills*/
+
+.mainskill{
+    margin-top: 8%;
+    margin-left: 10%;
+}
+  .wd{
+    color: black;
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+  }
+  .fed{
+    color: black;
+    font-size: 35px;
+    padding-top: 7px;
+    font-family: 'Courgette', cursive;
+  }
+  .html{
+    color: black;
+    font-size:25px;
+    padding-top: 30px;
+    font-family: 'Courgette', cursive;
+  }
+  .css{
+    color: black;
+    font-size: 25px;
+    padding-top: 5px;
+    font-family: 'Kalam', cursive;
+  }
+  .progl{
+    color: black;
+    font-size: 40px;
+    padding-top: 50px;
+    font-family: 'Courgette', cursive;
+  }
+  .cpp{
+    color: black;
+    font-size: 25px;
+    padding-top: 30px;
+    font-family: 'Kalam', cursive;
+  }
+  
+  .html1{
+    background-color: gray;
+    width: 200px;
+    height: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+  }
+  
+  .html2{
+    background-color: black;
+    width: 190px;
+    height: 15px;
+    border-radius: 5px;
+    
+  }
+  
+  .css1{
+    background-color: gray;
+    width: 200px;
+    height: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+  }
+  
+  .css2{
+    background-color: black;
+    width: 150px;
+    height: 15px;
+    border-radius: 5px;
+    
+  }
+  
+  .cpp1{
+    background-color: gray;
+    width: 200px;
+    height: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+   
+  }
+  
+  .cpp2{
+    background-color: black;
+    width: 80px;
+    height: 15px;
+    border-radius: 5px;
+    
+  }
+  
+
+/*contact me page*/
+  .maincontact{
+    margin-left: 10%;
+    margin-top: 12%;
+  }
+  .contact h2 {
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: black;  
+    font-family: 'Courgette', cursive;
+}
+  
+  .socialmedia {
+    font-size: 20px;
+  }
+  
+  .socialmedia li {
+    text-decoration: none;
+    list-style: none;
+  }
+  .btnc{
+    margin-left: 8%;
+  }
+  .btnc button {
+    padding: 10px 22px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: black;
+  }
+   
+  .btnc :hover {
+    cursor: pointer;
+    background-color: white;
+    transition: .4s;
+  }
+  .btnc a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+  }
+  .insta a{
+    color:#dd2a7b;
+  
+  }
+  .linkdn a{
+    color: #0e76a8;
+  }
+  .fb a{
+    color: dodgerblue;
+  }
+  .gmail a{
+    color: #D44638;
+  }
+
+  /*CV*/
+
+  .maincv{
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+
+  .mycvcontainer img {
+    width:68vh;
+    height:78vh;
+    border-radius: 10px;
+    border: 3px solid black;
+  }
+  
+
